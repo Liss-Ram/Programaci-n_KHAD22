@@ -1,0 +1,88 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+   char str1[20], str2[30], str3[10], str4[10], str5[30],str6[30],str7[30],str8[30],str9[30],str10[30];
+
+   printf("hey ");
+   scanf("%s", str1);
+   if (str1!=str2){
+
+
+   printf("Me llamo Amadeus ");
+   }
+
+   scanf("%s", str2);
+
+if (str2!=str1){
+
+
+   printf("Me gusta ver deportes, ver peliculas,escuchar musica, dibujar y los videojuegos");
+   }
+
+   scanf("%s", str3);
+
+if (str3!=str1){
+
+
+   printf("Accion y aventuras");
+   }
+
+  scanf("%s", str4);
+
+if (str4<str1){
+
+
+   printf("Mad Max, 300, piratas del caribe, jurassic park, volver al futuro y terminator");
+   }
+
+   scanf("%s", str5);
+
+if (str5!=str2){
+
+
+   printf("Pues soy fan del americano, basquetbol y ademas natacion");
+   }
+
+scanf("%s", str6);
+
+if (str6!=str5){
+
+
+   printf("Mi genero de musica favorito es el rock alternativo");
+   }
+scanf("%s", str7);
+
+if (str7!=str6){
+
+
+   printf("Mi banda favorita es Three Days Grace");
+   }
+scanf("%s", str8);
+
+if (str8!=str1){
+
+
+   printf("Porque en realidad creo que sus canciones tienen un mensaje profundo");
+   }
+scanf("%s", str9);
+
+if (str9!=str2){
+
+
+   printf("Me gusta dibujar mucho en paint, ademas de que amo dibujar superheroes");
+   }
+scanf("%s", str10);
+
+if (str10!=str9){
+
+
+   printf("Mi superheroe favorito es thor");
+   }
+
+
+   return 0;
+}
+
+
+

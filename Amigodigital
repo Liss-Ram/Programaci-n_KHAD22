@@ -1,0 +1,124 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	printf("-BIENVENIDO!!!!-\n");
+	char ch;
+	ch=getchar();
+	printf("\nCon que orientacion sexual te identificas??\n");
+	printf("a.-hombre \nb.-mujer \nc.-homosexual \n");
+	scanf("%c", &ch);
+	switch(ch)
+	{
+	    case 'a': printf("Hola bro :v\n\n");
+	    break;
+	    case 'b': printf("Hola amiga ;)\n\n");
+	    break;
+	    case 'c': printf("Como estas bb? 7u7\n\n");
+	    break;
+	    default: printf("Error\n\n");
+	}
+	char n;
+	n=getchar();
+	printf("Te gustan mas los perros o los gatos? n.n\n");
+	printf("a.-Lomitos\nb.-Gatetes\nc.-Me gustas tu 7u7\nd.-No me gustan los animales ._.\n");
+	scanf("%c", &n);
+	switch(n)
+	{
+	case 'a': printf("Ahhh perroooo... que gustos mas finos xD\n\n");
+	break;
+	case 'b': printf("A mi tambien me maman los michis :)\n\n");
+	break;
+	case 'c': printf("Hay gracias 7u7\n... pero...\nNO ERES MI TIPO U.U\n\n");
+	break;
+	case 'd': printf("Pues menos me gustas tu e.e\n\n");
+	break;
+	default: printf("Error\n\n");
+	}
+	char n1;
+	n1=getchar();
+	printf("Y que tal te va??\n");
+	printf("a.-He tenido un buen dia hoy :)\nb.-Hoy no es mi dia :'c\nc.-Pues la vida ya me es indiferente alv\n");
+	scanf("%c", &n1);
+	if(n1=='a')
+	{
+	    char n1a;
+	    n1a=getchar();
+	    printf("Me alegra mucho ;)\nOjala tengas mas dias asi :)\n");
+	    printf("Y por que ha sido un buen dia? :)\n");
+	    printf("a.-Asi siempre son mis dias B^|\nb.-Me paso algo bueno :)\nc.-Y por que no habria de serlo? xD\n");
+	    scanf("%c", &n1a);
+	    switch(n1a)
+	    {
+	    case 'a': printf("Jajajaja que buena actitud!!! xD\n\n");
+	    break;
+	    case 'b': printf("Que bueno bro :)\n\n");
+	    break;
+	    case 'c': printf("Ah 'inche perro :o\n\n");
+	    break;
+	    default: printf("Error\n\n");
+	    }
+	}
+	else
+	    if(n1=='b')
+	    {
+	    char n1b;
+	    n1b=getchar();
+	    printf("Entiendo tu dolor u.u\n");
+	    printf("Y se puede saber por que ha sido asi? :(\n");
+	    printf("a.-Preferiria no hablar de eso :/\nb.-Tuve un conflicto con una persona u.u\nc.-El mundo es una mierda >:v\nd.-Asi son mis dias :'v\n");
+	    scanf("%c", &n1b);
+	    switch(n1b)
+	    {
+	    case'a': printf("Ok bro, se entiende u.u\n\n");
+	    break;
+	    case'b': printf("Lamento oir eso :c\n\n");
+	    break;
+	    case'c': printf("El mundo es caotico, desconoce y ni le importaria ser justo\n\n");
+	    break;
+	    case'd': printf("Chale, eso no suena nada bien amig@ :(\n\n");
+	    break;
+	    default: printf("Error\n\n");
+	    }
+	    }
+	    else
+	        if(n1=='c')
+	        {
+	        printf("Animo, si ya todo esta perdido la anarquia es lo unico que nos queda >:v\n\n");
+	        }
+	        else
+	        {
+	            printf("Error!!\n\n");
+	        }
+	char n2;
+	n2=getchar();
+	printf("Y cambiando de tema, que haras de rato??\n");
+	printf("a.-Tal vez me embriague un rato :v\nb.-Quiero ir a mi casa a dormir :(\nc.-Tengo una cita 7u7\nd.-Que te importa??!!\n");
+	scanf("%c", &n2);
+	switch(n2)
+	{
+	case 'a': printf("Pues ya es hora de que saques las caaaguaaaamaaaaasss ;)\n");
+	          printf("Jalas o no??\n");
+	          char n2a;
+	          n2a=getchar();
+	          printf("a.-Jalo ;)\nb.-Nel perro >:v\nc.-Otro dia :)");
+	          scanf("%c", &n2a);
+	          switch(n2a)
+	          {
+	          case 'a': printf("Pues vamos ;)\n\n");
+	          break;
+	          case 'b': printf("Pues entonces ya vete payaso e.e\n\n");
+	          break;
+	          case 'c': printf("Camara tons :v\n\n");
+	          break;
+	          default: printf("Error\n\n");
+	          }
+	break;
+	case 'b': printf("Pues entonces no te entretengo, cuidate ;)\n\n");
+	break;
+	case 'c': printf("Que buen pedo :)\nQue te vaya bien amig@ ;)\n\n");
+	break;
+	default: printf("Error\n\n");
+	}
+	return 0;
+}
